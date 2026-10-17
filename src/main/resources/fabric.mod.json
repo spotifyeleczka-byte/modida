@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "zywioly-mod",
+	"version": "${version}",
+	"name": "SprawdzMS by qlnkDEV",
+	"icon": "assets/modid/icon.png",
+	"description": "Panel żywiołów autorstwa qlnkDEV",
+	"authors": ["qlnkDEV"],
+	"environment": "client",
+	"entrypoints": {
+		"client": ["net.example.mod.ExampleMod"]
+	},
+	"mixins": ["modid.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
